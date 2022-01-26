@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+  background: black;
+}
 .head{
     height: 100vh;
     width: 100%;
@@ -70,67 +73,42 @@
 }
 /*Our Service**/
 
-.Our-Service{
-    height: 800px;
-    padding-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-   
-    flex-direction: column;
+.services
+{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.services img{
+  height:100px;
+  
+}
+.services .box{
+  color: goldenrod;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 250px;
+  border: 4px solid goldenrod;
+  padding: 10px;
+  
+}
+.services .box:hover{
+  box-shadow: 4px 5px 6px goldenrod;
+}
+  .services .box h1{
+    font-size: 30px;
   }
-  .Our-Service .s-line-1{
-    flex: 1;
-    height: 800px;
-    width:100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-  }
-  .Our-Service .s-line-1 .box{
-    padding: 10px;
-    box-shadow: 3px 4px 5px #095784 ;
-    background: rgb(99,181,238);
-background: linear-gradient(191deg, rgba(99,181,238,1) 0%, rgba(242,242,242,1) 100%);
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 10px;
-    border-radius: 10px;
-  }
-  .Our-Service .s-line-1 .box h1,p,a{
-    text-align: center;
-    align-items: center;
-  }
-  .Our-Service .s-line-2{
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    height: 800px;
-    width:100%;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-  }
-  .Our-Service .s-line-2 .box{
-    padding: 10px;
-    box-shadow: 3px 4px 5px #095784 ;
-    border-radius: 10px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 10px;
-    background: rgb(151,186,210);
-background: linear-gradient(191deg, rgba(151,186,210,1) 0%, rgba(159,201,231,1) 52%, rgba(242,242,242,1) 100%);
-  }
-  .Our-Service .s-line-2 .box h1,p,a{
-    text-align: center;
-    align-items: center;
+  .services .box p{
+    font-size: 18px;
   }
   @media (max-width:715px) {
     .Our-Service .s-line-1{
@@ -140,9 +118,78 @@ background: linear-gradient(191deg, rgba(151,186,210,1) 0%, rgba(159,201,231,1) 
        margin-top: 1000px
    }
    }
-   @media (max-width:715px) {
-    .Our-Service .s-line-2{
-       flex-direction: column;
-       
-   }
-   }
+  
+
+   .app-details-bar{
+    height: 150px;
+    border-radius: 20px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    background: rgb(225,143,125);
+    background: linear-gradient(90deg, rgba(225,143,125,1) 0%, rgba(238,222,204,1) 51%, rgba(218,104,63,1) 100%);
+  }
+  .app-details-bar a:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+  }
+  .total-downloads{
+    flex: 1;
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .total-downloads h1{
+    font-weight: 600;
+    color: #f2f2f2;
+    font-size: 25px;
+    text-shadow: 2px 3px 4px #3a2c8c ;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  .total-downloads .text{
+    padding: 50px;
+  }
+  .best-app{
+    flex: 1;
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+  }
+  .experience{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+  }
+  .best-app h1{
+    font-weight: 600;
+    color: #fff;
+    font-size: 25px;
+    text-shadow: 2px 3px 4px #3a2c8c ;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  .best-app .text{
+    padding: 50px;
+  }
+  
+  .experience h1{
+    font-weight: 600;
+    color: #fff;
+    font-size: 25px;
+    text-shadow: 2px 3px 4px #3a2c8c ;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  .experience .text{
+    padding: 50px;
+  }
+  @media (max-width:800px) {
+    .app-details-bar{
+      flex-direction: column;
+      height: fit-content;
+    }
+    }
+   
