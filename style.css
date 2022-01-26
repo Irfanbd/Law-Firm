@@ -126,25 +126,26 @@ body{
     display: flex;
     margin: 0 auto;
     justify-content: center;
-    background: rgb(225,143,125);
-    background: linear-gradient(90deg, rgba(225,143,125,1) 0%, rgba(238,222,204,1) 51%, rgba(218,104,63,1) 100%);
+    
   }
   .app-details-bar a:hover{
     transform: rotate(360deg);
     transition: 1s;
   }
   .total-downloads{
+    margin: 30px;
     flex: 1;
-    
+    color: #f2f2f2;
     justify-content: center;
     align-items: center;
     display: flex;
+    border: 1px solid goldenrod;
   }
   .total-downloads h1{
     font-weight: 600;
     color: #f2f2f2;
     font-size: 25px;
-    text-shadow: 2px 3px 4px #3a2c8c ;
+    text-shadow: 2px 3px 4px white ;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   }
   .total-downloads .text{
@@ -152,24 +153,27 @@ body{
   }
   .best-app{
     flex: 1;
-    
+    color: #f2f2f2;
     justify-content: center;
     align-items: center;
     display: flex;
-    
+    border: 1px solid goldenrod;
+    margin: 30px;
   }
   .experience{
     flex: 1;
     justify-content: center;
     align-items: center;
     display: flex;
-    
+    color: #f2f2f2;
+    border: 1px solid goldenrod;
+    margin: 30px;
   }
   .best-app h1{
     font-weight: 600;
     color: #fff;
     font-size: 25px;
-    text-shadow: 2px 3px 4px #3a2c8c ;
+    text-shadow: 2px 3px 4px white ;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   }
   .best-app .text{
@@ -180,7 +184,7 @@ body{
     font-weight: 600;
     color: #fff;
     font-size: 25px;
-    text-shadow: 2px 3px 4px #3a2c8c ;
+    text-shadow: 2px 3px 4px white ;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   }
   .experience .text{
