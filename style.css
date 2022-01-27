@@ -73,7 +73,11 @@ body{
     background: goldenrod;
     border-radius: 20px;
 }
+
+
 /*Our Service**/
+
+
 
 .services
 {
@@ -87,7 +91,7 @@ body{
   
 }
 .services img{
-  height:100px;
+  height:50%;
   
 }
 .services .box{
@@ -112,14 +116,12 @@ body{
   .services .box p{
     font-size: 18px;
   }
-  @media (max-width:715px) {
-    .Our-Service .s-line-1{
-       flex-direction: column;
-       height: fit-content;
-       width: fit-content;
-       margin-top: 1000px
-   }
-   }
+  @media (max-width: 580px) {
+    .services {
+      flex-direction: column;
+    margin-top: 400px;
+    }
+  }
   
 
    .app-details-bar{
@@ -196,6 +198,7 @@ body{
     .app-details-bar{
       flex-direction: column;
       height: fit-content;
+      margin-top: 400px;
     }
     }
    
@@ -266,6 +269,13 @@ body{
   font-weight: 600;
   cursor: pointer;
 }
+@media (max-width:800px) {
+  .news-section{
+    flex-direction: column;
+    height: fit-content;
+    margin-top: 200px;
+  }
+  }
 
 /**Leatest News Section */
 .news-headline{
@@ -302,7 +312,27 @@ body{
  margin-top: 100px;
   color: goldenrod;
 }
-
+@media (max-width:800px) {
+  .about{
+    flex-direction: column;
+    height: fit-content;
+    
+  }
+  }
+  @media (max-width:800px) {
+    .about-text .about-button{
+      flex-direction: column;
+      height: fit-content;
+      
+    }
+    }
+    @media (max-width:800px) {
+      .news-section{
+        flex-direction: column;
+        height: fit-content;
+        
+      }
+      }
 /**Follower */
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 
@@ -335,11 +365,13 @@ body{
   margin-top: 10px;
 }
 
-@media (max-width: 580px) {
-  body {
+@media (max-width:800px) {
+  .follower{
     flex-direction: column;
+    height: fit-content;
+    
   }
-}
+  }
 
 /**Frequently asked Questions */
 
@@ -499,6 +531,15 @@ input[type=submit]:hover {
   border: 1px solid goldenrod;
   
 }
+
+@media (max-width:800px) {
+  .two-side{
+    flex-direction: column;
+    height: fit-content;
+    
+  }
+  }
+
 /**Footer */
 .footer-logo{
   height: 300px;
@@ -524,5 +565,12 @@ margin: 30px;
 }
 .contact-info .box{
   flex: 1;
-
 }
+@media (max-width:800px) {
+  .contact-info{
+    flex-direction: column;
+    height: fit-content;
+    line-height: 50px;
+    
+  }
+  }
