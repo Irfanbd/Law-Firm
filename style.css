@@ -294,10 +294,49 @@ body{
   margin: 20px;
   padding: 20px;
   flex: 1;
-  
+  border-radius: 10px;
 
 }
 .news-section .news .p-3{
-  margin-top: 100px;
   
+ margin-top: 100px;
+  color: goldenrod;
+}
+
+/**Follower */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.follower {
+  
+  color: #fff;
+  font-family: 'Roboto Mono', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 50px;
+}
+
+.counter {
+  font-size: 60px;
+  margin-top: 10px;
+}
+
+@media (max-width: 580px) {
+  body {
+    flex-direction: column;
+  }
 }
