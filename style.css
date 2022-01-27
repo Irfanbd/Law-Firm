@@ -499,3 +499,30 @@ input[type=submit]:hover {
   border: 1px solid goldenrod;
   
 }
+/**Footer */
+.footer-logo{
+  height: 300px;
+display: flex;
+justify-content: center;
+margin: 0 auto;
+align-items: center;
+color: goldenrod;
+margin: 30px;
+}
+.footer-logo img{
+  height: 200px;
+}
+.contact-info{
+  height: 100px;
+  display: flex;
+  background: goldenrod;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+.contact-info .box{
+  flex: 1;
+
+}
