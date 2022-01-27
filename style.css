@@ -70,6 +70,8 @@ body{
 }
 .head-text .button-text button:hover{
     box-shadow: 4px 5px 6px white;
+    background: goldenrod;
+    border-radius: 20px;
 }
 /*Our Service**/
 
@@ -246,6 +248,14 @@ body{
   margin-right: 30px;
   cursor: pointer;
 }
+.about .about-text .about-button .button1:hover{
+  background: goldenrod;
+  border-radius: 20px;
+}
+.about .about-text .about-button .button2:hover{
+  background: goldenrod;
+  border-radius: 20px;
+}
 .about .about-text .about-button .button2{
   padding: 10px;
   font-size: 25px;
@@ -255,4 +265,39 @@ body{
   border: none;
   font-weight: 600;
   cursor: pointer;
+}
+
+/**Leatest News Section */
+.news-headline{
+  height: 50px;
+  color: goldenrod;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.news-headline h1{
+  border-bottom: 4px double wheat;
+}
+.news-section{
+  height: 400px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  
+  
+}
+.news-section .news{
+  background: #efeff2;
+  margin: 20px;
+  padding: 20px;
+  flex: 1;
+  
+
+}
+.news-section .news .p-3{
+  margin-top: 100px;
+  
 }
